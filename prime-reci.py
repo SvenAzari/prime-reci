@@ -4,13 +4,13 @@
 
 from itertools import count
 
-x = int(input("prime = ")) #unos
+x = int(input("prime = ")) #input
 
-li = [] #lista za usporedbu
+li = [] #list for comparisong
 d = 1
 c = 0
 
-while True:
+while True: #calculation loop
     o = d % x
     try:
         b = li.index(o)
@@ -21,4 +21,4 @@ while True:
     else:
         break
 
-print (c)
+print (c) #final print of length of period of decimal expansion
