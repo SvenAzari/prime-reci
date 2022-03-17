@@ -30,8 +30,7 @@ def primetest ():
       print ("NOR PRIME NOR COMPOSIT")
       fuex ()
     elif x == 2:
-      print ("PERIOD OD DECIMAL EXPANSION")
-      print ("2")
+      print ("PERIOD OD DECIMAL EXPANSION IS FINETE")
       fuex ()
     elif x < 1:
       print ("ENTER ONLY NATURAL NUMBERS")
