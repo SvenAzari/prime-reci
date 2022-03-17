@@ -1,6 +1,6 @@
-#Verison 2
+#Verison 2.1
 #Requirements: Python3
-#Version 2 checks if number is prime and then calculates how many digits is in period of decimal expansion of prime numbers.
+#Version 2.1 checks if number is prime and then calculates how many digits is in period of decimal expansion of prime numbers.
 #Made by Sven Azari
 
 #imports
@@ -30,7 +30,8 @@ def primetest ():
       print ("NOR PRIME NOR COMPOSIT")
       fuex ()
     elif x == 2:
-      print ("PRIME")
+      print ("PERIOD OD DECIMAL EXPANSION")
+      print ("2")
       fuex ()
     elif x < 1:
       print ("ENTER ONLY NATURAL NUMBERS")
