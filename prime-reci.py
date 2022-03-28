@@ -2,6 +2,7 @@
 #Requirements: Python3
 #Version 2.1 checks if number is prime and then calculates how many digits is in period of decimal expansion of prime numbers.
 #Made by Sven Azari
+#http://www.github.com/svenazari
 
 #imports
 import math
