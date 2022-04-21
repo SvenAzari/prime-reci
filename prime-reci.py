@@ -24,7 +24,12 @@ def primetest ():
     print ("#                  #")
     print ("####################")
     print (" ")
-    x = float(input ("X = "))
+    xs = input ("X = ")
+    if xs == "exit" or xs == "EXIT":
+      clear()
+      exit()
+    else:
+      x = float(xs)
     print (" ")
     x1 = math.ceil(x / 2) + 1
     if x == 1:
